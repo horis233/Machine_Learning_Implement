@@ -39,18 +39,19 @@ def print_graph(model,checkpoint):
     for i in range(1000):
         #plt.subplot(32,32,i+1)
         plt.imshow(w[i], cmap=plt.cm.gray)
-        '''
+
         if model == "full":
              plt.savefig('/home/horis/Documents/Machine Learning examples/Neural Networks/Feedforward_pic/'+str(i)+'weight of chechpoint: '+ str(checkpoint)+'.png' )
         if model == "drop":
              plt.savefig('/home/horis/Documents/Machine Learning examples/Neural Networks/Dropout_pic/'+str(i)+'weight of chechpoint: '+ str(checkpoint)+'.png' )
-        '''
+    '''    
     if model == "full":
         plt.savefig('/home/horis/Documents/Machine Learning examples/Neural Networks/Feedforward_pic/weight of '
                     'chechpoint: ' + str(checkpoint) + '.png')
     if model == "drop":
         plt.savefig('/home/horis/Documents/Machine Learning examples/Neural Networks/Dropout_pic/weight of chechpoint: '
                     + str(checkpoint) + '.png')
+    '''
     plt.show()
 
 
