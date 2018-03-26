@@ -1,0 +1,5 @@
+model_checkpoint_path: "/home/horis/Documents/Machine Learning examples/Neural Networks/Feedforward_models/model20.ckpt"
+all_model_checkpoint_paths: "/home/horis/Documents/Machine Learning examples/Neural Networks/Feedforward_models/model5.ckpt"
+all_model_checkpoint_paths: "/home/horis/Documents/Machine Learning examples/Neural Networks/Feedforward_models/model10.ckpt"
+all_model_checkpoint_paths: "/home/horis/Documents/Machine Learning examples/Neural Networks/Feedforward_models/model15.ckpt"
+all_model_checkpoint_paths: "/home/horis/Documents/Machine Learning examples/Neural Networks/Feedforward_models/model20.ckpt"
